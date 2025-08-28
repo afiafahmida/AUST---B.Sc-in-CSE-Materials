@@ -1,0 +1,78 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     play-weka.filters.supervised.instance.SMOTE-C0-K5-P50.0-S1
+Instances:    14
+Attributes:   4
+              outlook
+              temperature
+              humidity
+              playing
+Test mode:    split 70.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                 Class
+Attribute          yes      no
+                 (0.5)   (0.5)
+===============================
+outlook
+  sunny             3.0     2.0
+  windy             3.0     5.0
+  rainy             4.0     3.0
+  [total]          10.0    10.0
+
+temperature
+  mean          25.0952 29.1429
+  std. dev.       7.637  10.891
+  weight sum          7       7
+  precision      2.8333  2.8333
+
+humidity
+  mean          25.7143 32.6786
+  std. dev.      9.9071 18.7729
+  weight sum          7       7
+  precision        3.75    3.75
+
+
+
+Time taken to build model: 0 seconds
+
+=== Predictions on test split ===
+
+    inst#     actual  predicted error prediction
+        1      1:yes      1:yes       0.514 
+        2      1:yes       2:no   +   0.503 
+        3      1:yes       2:no   +   0.996 
+        4       2:no      1:yes   +   0.629 
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances           1               25      %
+Incorrectly Classified Instances         3               75      %
+Kappa statistic                         -0.5   
+Mean absolute error                      0.6536
+Root mean squared error                  0.6851
+Relative absolute error                120.6653 %
+Root relative squared error            125.3752 %
+Total Number of Instances                4     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.333    1.000    0.500      0.333    0.400      -0.577   0.000     0.639     yes
+                 0.000    0.667    0.000      0.000    0.000      -0.577   0.000     0.250     no
+Weighted Avg.    0.250    0.917    0.375      0.250    0.300      -0.577   0.000     0.542     
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 1 2 | a = yes
+ 1 0 | b = no
+

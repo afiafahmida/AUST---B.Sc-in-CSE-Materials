@@ -1,0 +1,31 @@
+@relation car
+
+@attribute Price_in_lakh numeric
+@attribute Horse_power numeric
+@attribute Body_color {blue, green}
+@attribute origin {Japan, German}
+@attribute class {cheap, expensive, average}
+
+
+@data
+12.4, 102, blue, Japan, cheap
+500.45, 807, blue, German, expensive
+873.35, 987, green, German, expensive
+99.34, 511, blue, German, average
+13.72, 302, green, German, cheap
+11.47, 120, blue, Japan, cheap
+80.94, 500, blue, Japan, average
+10.72, 376, green, Japan, cheap
+934.05, 1007, green, Japan, expensive
+19.4, 112, blue, Japan, cheap
+1000.34, 804, blue, Japan, expensive
+22.78, 322, green, German, cheap
+12.03, 222, blue, Japan, cheap
+16.79, 382, green, Japan, cheap
+150.14, 671, blue, Japan, average
+700.385, 945, blue, German, expensive
+14.40, 192, blue, Japan, cheap
+19.992, 107, green, German, cheap
+923.5, 911, blue, German, expensive
+100.34, 402, green, Japan, average
+

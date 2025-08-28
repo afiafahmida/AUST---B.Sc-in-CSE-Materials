@@ -1,0 +1,15 @@
+@relation car-weka.filters.unsupervised.attribute.NumericTransform-R1-Cjava.lang.Math-Mfloor
+
+@attribute Price_in_lakh numeric
+@attribute Horse_power numeric
+@attribute Body_color {blue,green}
+@attribute origin {Japan,German}
+@attribute class {cheap,expensive,average}
+
+@data
+23,162,green,Japan,cheap
+900,704,blue,German,expensive
+190,412,green,Japan,average
+300,704,blue,German,average
+190,412,green,Japan,average
+4,120,blue,German,cheap

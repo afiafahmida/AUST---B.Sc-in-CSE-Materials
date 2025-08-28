@@ -1,0 +1,9 @@
+@relation 'Food_Management-weka.filters.unsupervised.attribute.Remove-R1-5,7-weka.filters.supervised.instance.StratifiedRemoveFolds-S0-N10-F1'
+
+@attribute dal_amount numeric
+@attribute Status {healthy,rotten,old}
+
+@data
+30.8,healthy
+32.4,healthy
+12.6,old

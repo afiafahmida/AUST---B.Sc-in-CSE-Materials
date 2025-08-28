@@ -1,0 +1,22 @@
+@relation Food_Management
+
+@attribute Food_container {plastic_box, plate}
+@attribute Intake_time {morning, evening, night}
+@attribute Food_taste {spicy, salty, sour}
+@attribute rice_amount numeric
+@attribute beef_amount numeric
+@attribute dal_amount numeric
+@attribute Vegetable_amount numeric
+@attribute Status {healthy, rotten, old}
+
+@data
+plastic_box, morning, spicy, 101.5, 150.2, 20.8, 40.15, healthy
+plastic_box, night, sour, 204.2, 90.1, 54.6, 23.3, old
+plate, morning, spicy, 130.45, 67.8, 65.9, 15.2, healthy
+plate, night, sour, 260.7, 25.31, 75.9, 75.2, rotten
+plate, evening, salty, 190.5, 100.8, 10.7, 20.2, old
+plastic_box, evening, salty, 280.6, 100.5, 15.3, 25.7, old
+plate, night, sour, 250.9, 30.4, 60.1, 101.52, rotten
+plastic_box, morning, spicy, 110.3, 71.2, 75.6, 45.1, healthy
+plastic_box, night, sour, 230.87, 20.6, 72.9, 5.3, rotten
+plate, morning, spicy, 143.9, 57.7, 40.3, 60.6, healthy
